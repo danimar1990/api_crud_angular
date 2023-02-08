@@ -1,0 +1,87 @@
+<mat-card>
+  <mat-card class="align-itens-middle">
+    <mat-form-field class="space-right">
+      <mat-label>Razão Social</mat-label>
+      <mat-select [(value)]="selectedRazaoSocial">
+        <mat-option *ngFor="let razao of RazaoOptions" [value]="razao">
+          {{ razao }}
+        </mat-option>
+      </mat-select>
+    </mat-form-field>
+
+    <mat-form-field class="space-right">
+      <mat-label>Status</mat-label>
+      <mat-select [(value)]="selectedStatus">
+        <mat-option *ngFor="let status of StatusOptions" [value]="status">
+          {{ status }}
+        </mat-option>
+      </mat-select>
+    </mat-form-field>
+
+    <button mat-raised-button (click)="resetFilters()" class="space-right">Limpar</button>
+
+    <button mat-raised-button color="warn" (click)="applyFilters()">Filtrar</button>
+  </mat-card>
+
+  <div class="mat-elevation-z8">
+    <mat-progress-bar mode="indeterminate" *ngIf="isLoading"></mat-progress-bar>
+    <table mat-table [dataSource]="filteredDataSource">
+      <ng-container matColumnDef="status">
+        <th mat-header-cell *matHeaderCellDef>Status</th>
+        <td mat-cell *matCellDef="let element">
+          {{ element.status }}
+        </td>
+      </ng-container>
+
+      <ng-container matColumnDef="carteira">
+        <th mat-header-cell *matHeaderCellDef>Carteira</th>
+        <td mat-cell *matCellDef="let element">{{ element.carteira }}</td>
+      </ng-container>
+
+      <ng-container matColumnDef="razao_social">
+        <th mat-header-cell *matHeaderCellDef>Razão Social</th>
+        <td mat-cell *matCellDef="let element">{{ element.razao_social }}</td>
+      </ng-container>
+
+      <ng-container matColumnDef="direcionamento_liquidacao">
+        <th mat-header-cell *matHeaderCellDef>Habilitar</th>
+        <td mat-cell *matCellDef="let element">
+          <div class="opt_01">
+            <mat-slide-toggle
+              [checked]="element.direcionamento_liquidacao == true"
+              [disabled]="element.direcionamento_liquidacao == null"
+              (change)="onFormSubmit(element.conta_b3, $event.checked)"
+            >
+            </mat-slide-toggle>
+            <button
+              *ngIf="element.direcionamento_liquidacao == null"
+              class="tooltip-button"
+              mat-raised-button
+              matTooltip="Info about the action"
+              [matTooltipPosition]="position.value!"
+            >
+              <mat-icon
+                svgIcon="thumbs-up"
+                aria-hidden="false"
+                aria-label="Info"
+              ></mat-icon>
+            </button>
+          </div>
+        </td>
+      </ng-container>
+
+      <tr mat-header-row *matHeaderRowDef="displayedColumns"></tr>
+      <tr mat-row *matRowDef="let row; columns: displayedColumns"></tr>
+    </table>
+    <mat-progress-bar mode="indeterminate" *ngIf="isLoading"></mat-progress-bar>
+
+    <mat-paginator
+      #paginator
+      [length]="totalData"
+      [pageSizeOptions]="pageSizes"
+      showFirstLastButtons
+    >
+    </mat-paginator>
+  </div>
+</mat-card>
+<!-- <app-simple-mat-table></app-simple-mat-table> -->

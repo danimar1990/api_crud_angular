@@ -1,0 +1,33 @@
+table {
+  width: 100%;
+}
+
+.align-itens-middle {
+  display: inline-block;
+  vertical-align: middle;
+  align-items: center;
+  margin: 5px;
+  margin-bottom: 20px;
+  padding-bottom: 0px;
+  max-width: 700px;
+}
+
+button.tooltip-button {
+  /* margin-left: 10px; */
+
+  border: 0;
+  border-radius: 100%;
+  box-shadow: none;
+}
+
+.opt_01 {
+  display: inline-block;
+}
+
+::ng-deep mat-card {
+  margin: 50px;
+}
+
+.space-right {
+  margin-right: 20px;
+}

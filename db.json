@@ -1,0 +1,604 @@
+{
+  "direcionamento": [
+    {
+      "conta_b3": "3337",
+      "carteira": "TX41OM4CO",
+      "razao_social": "Consectetuer Cursus Associates",
+      "direcionamento_liquidacao": false
+    },
+    {
+      "conta_b3": "6611",
+      "carteira": "YE01WR8XG",
+      "razao_social": "Nam Porttitor Industries",
+      "direcionamento_liquidacao": true
+    },
+    {
+      "conta_b3": "4896",
+      "carteira": "UV35EV2HN",
+      "razao_social": "Et Risus Quisque Foundation",
+      "direcionamento_liquidacao": true
+    },
+    {
+      "conta_b3": "4056",
+      "carteira": "RS82DM7JE",
+      "razao_social": "Ut LLP",
+      "direcionamento_liquidacao": true
+    },
+    {
+      "conta_b3": "2383",
+      "carteira": "UD81LT4WE",
+      "razao_social": "Elit Dictum Institute",
+      "direcionamento_liquidacao": null
+    },
+    {
+      "conta_b3": "1768",
+      "carteira": "QG61EO3YC",
+      "razao_social": "Lorem Ac Industries",
+      "direcionamento_liquidacao": false
+    },
+    {
+      "conta_b3": "621",
+      "carteira": "VT62OQ9RR",
+      "razao_social": "Nec Ante Blandit Consulting",
+      "direcionamento_liquidacao": false
+    },
+    {
+      "conta_b3": "4796",
+      "carteira": "FB58ZR4VL",
+      "razao_social": "Ligula Elit Consulting",
+      "direcionamento_liquidacao": null
+    },
+    {
+      "conta_b3": "2414",
+      "carteira": "NQ67JG8FU",
+      "razao_social": "Mauris Consulting",
+      "direcionamento_liquidacao": false
+    },
+    {
+      "conta_b3": "9205",
+      "carteira": "JU06HH1PB",
+      "razao_social": "Gravida Mauris Ut PC",
+      "direcionamento_liquidacao": true
+    },
+    {
+      "conta_b3": "6309",
+      "carteira": "WE45MC4NE",
+      "razao_social": "Quis Arcu Ltd",
+      "direcionamento_liquidacao": null
+    },
+    {
+      "conta_b3": "1588",
+      "carteira": "PL78QN7XK",
+      "razao_social": "Nascetur Institute",
+      "direcionamento_liquidacao": false
+    },
+    {
+      "conta_b3": "9022",
+      "carteira": "OG09XW4RQ",
+      "razao_social": "Inceptos Hymenaeos Mauris Limited",
+      "direcionamento_liquidacao": false
+    },
+    {
+      "conta_b3": "2909",
+      "carteira": "TX67JD4NY",
+      "razao_social": "Consectetuer Adipiscing Elit PC",
+      "direcionamento_liquidacao": false
+    },
+    {
+      "conta_b3": "3816",
+      "carteira": "LE15IK2OP",
+      "razao_social": "Risus Morbi Metus Corporation",
+      "direcionamento_liquidacao": null
+    },
+    {
+      "conta_b3": "8269",
+      "carteira": "ES84MG8LH",
+      "razao_social": "Conubia Nostra Per Ltd",
+      "direcionamento_liquidacao": true
+    },
+    {
+      "conta_b3": "3683",
+      "carteira": "EM64DK0FK",
+      "razao_social": "Libero At Auctor Foundation",
+      "direcionamento_liquidacao": true
+    },
+    {
+      "conta_b3": "437",
+      "carteira": "WI26LS8LF",
+      "razao_social": "Tempor Incorporated",
+      "direcionamento_liquidacao": null
+    },
+    {
+      "conta_b3": "3300",
+      "carteira": "NI46VK4XV",
+      "razao_social": "Neque Nullam Industries",
+      "direcionamento_liquidacao": true
+    },
+    {
+      "conta_b3": "7364",
+      "carteira": "EC33KI9MG",
+      "razao_social": "Amet Inc.",
+      "direcionamento_liquidacao": true
+    },
+    {
+      "conta_b3": "6264",
+      "carteira": "TU20VL7NO",
+      "razao_social": "Quisque Nonummy Corp.",
+      "direcionamento_liquidacao": false
+    },
+    {
+      "conta_b3": "9698",
+      "carteira": "YY15AD3UF",
+      "razao_social": "Consectetuer LLP",
+      "direcionamento_liquidacao": true
+    },
+    {
+      "conta_b3": "1270",
+      "carteira": "RT65GS7YZ",
+      "razao_social": "Sed Industries",
+      "direcionamento_liquidacao": true
+    },
+    {
+      "conta_b3": "1343",
+      "carteira": "FZ73XK9WD",
+      "razao_social": "Mauris Id Sapien Corp.",
+      "direcionamento_liquidacao": null
+    },
+    {
+      "conta_b3": "6011",
+      "carteira": "OM57ED6BC",
+      "razao_social": "Dolor Sit Amet Inc.",
+      "direcionamento_liquidacao": true
+    },
+    {
+      "conta_b3": "1511",
+      "carteira": "RB36TM8ST",
+      "razao_social": "Volutpat Ornare Facilisis Limited",
+      "direcionamento_liquidacao": false
+    },
+    {
+      "conta_b3": "762",
+      "carteira": "LI85EQ3FR",
+      "razao_social": "Nisl Arcu LLP",
+      "direcionamento_liquidacao": true
+    },
+    {
+      "conta_b3": "4291",
+      "carteira": "HG75OL5RX",
+      "razao_social": "Mauris Incorporated",
+      "direcionamento_liquidacao": false
+    },
+    {
+      "conta_b3": "439",
+      "carteira": "YF56ZP0LY",
+      "razao_social": "Donec PC",
+      "direcionamento_liquidacao": null
+    },
+    {
+      "conta_b3": "7829",
+      "carteira": "JQ48YL8HH",
+      "razao_social": "Tellus Lorem Eu Corporation",
+      "direcionamento_liquidacao": false
+    },
+    {
+      "conta_b3": "791",
+      "carteira": "RU13AS0ZD",
+      "razao_social": "Libero Mauris Corp.",
+      "direcionamento_liquidacao": true
+    },
+    {
+      "conta_b3": "1870",
+      "carteira": "RW42CF7CJ",
+      "razao_social": "Montes Nascetur LLC",
+      "direcionamento_liquidacao": null
+    },
+    {
+      "conta_b3": "3357",
+      "carteira": "UG71GF8CH",
+      "razao_social": "Interdum Sed Auctor Consulting",
+      "direcionamento_liquidacao": false
+    },
+    {
+      "conta_b3": "4623",
+      "carteira": "WG22RX4EV",
+      "razao_social": "Nisl Elementum Purus Industries",
+      "direcionamento_liquidacao": null
+    },
+    {
+      "conta_b3": "9869",
+      "carteira": "SD24AO0BK",
+      "razao_social": "Per Conubia Incorporated",
+      "direcionamento_liquidacao": false
+    },
+    {
+      "conta_b3": "9885",
+      "carteira": "OX22JD2HH",
+      "razao_social": "Semper Egestas Urna Institute",
+      "direcionamento_liquidacao": false
+    },
+    {
+      "conta_b3": "8602",
+      "carteira": "BC18JC0ZK",
+      "razao_social": "Egestas Blandit Nam Associates",
+      "direcionamento_liquidacao": false
+    },
+    {
+      "conta_b3": "3628",
+      "carteira": "VU64SK2HN",
+      "razao_social": "Phasellus Dolor Foundation",
+      "direcionamento_liquidacao": false
+    },
+    {
+      "conta_b3": "6927",
+      "carteira": "UN78GL2AM",
+      "razao_social": "Magna Phasellus Industries",
+      "direcionamento_liquidacao": false
+    },
+    {
+      "conta_b3": "5960",
+      "carteira": "UB01LI8LC",
+      "razao_social": "A Malesuada Company",
+      "direcionamento_liquidacao": false
+    },
+    {
+      "conta_b3": "9537",
+      "carteira": "FH76RE5RJ",
+      "razao_social": "Consectetuer Euismod Associates",
+      "direcionamento_liquidacao": true
+    },
+    {
+      "conta_b3": "8",
+      "carteira": "PE24JW6MI",
+      "razao_social": "Proin Non Massa Incorporated",
+      "direcionamento_liquidacao": false
+    },
+    {
+      "conta_b3": "9067",
+      "carteira": "QU41VK8QD",
+      "razao_social": "Sociis Natoque Industries",
+      "direcionamento_liquidacao": false
+    },
+    {
+      "conta_b3": "3502",
+      "carteira": "SH40XX0PN",
+      "razao_social": "Ut PC",
+      "direcionamento_liquidacao": true
+    },
+    {
+      "conta_b3": "777",
+      "carteira": "FG86JW4VZ",
+      "razao_social": "Felis Associates",
+      "direcionamento_liquidacao": true
+    },
+    {
+      "conta_b3": "2714",
+      "carteira": "UQ71BP6PI",
+      "razao_social": "Erat Neque Non LLP",
+      "direcionamento_liquidacao": null
+    },
+    {
+      "conta_b3": "1667",
+      "carteira": "DE77DX9LZ",
+      "razao_social": "In Associates",
+      "direcionamento_liquidacao": false
+    },
+    {
+      "conta_b3": "8400",
+      "carteira": "ZN82AX4PC",
+      "razao_social": "Sed Hendrerit Inc.",
+      "direcionamento_liquidacao": false
+    },
+    {
+      "conta_b3": "495",
+      "carteira": "ME58CF7KQ",
+      "razao_social": "Lorem Ipsum LLC",
+      "direcionamento_liquidacao": null
+    },
+    {
+      "conta_b3": "9958",
+      "carteira": "LF31KO6SH",
+      "razao_social": "Elit Pellentesque Industries",
+      "direcionamento_liquidacao": true
+    },
+    {
+      "conta_b3": "1513",
+      "carteira": "TG37OF9OY",
+      "razao_social": "Nibh Vulputate Mauris Inc.",
+      "direcionamento_liquidacao": false
+    },
+    {
+      "conta_b3": "8813",
+      "carteira": "NG38BQ0TI",
+      "razao_social": "Ut Semper Pretium Inc.",
+      "direcionamento_liquidacao": null
+    },
+    {
+      "conta_b3": "6870",
+      "carteira": "PR15SW1LT",
+      "razao_social": "Sapien Cras Dolor Foundation",
+      "direcionamento_liquidacao": null
+    },
+    {
+      "conta_b3": "4653",
+      "carteira": "RQ30QQ1YL",
+      "razao_social": "Vulputate Ullamcorper Magna PC",
+      "direcionamento_liquidacao": true
+    },
+    {
+      "conta_b3": "5070",
+      "carteira": "TU64HY8UL",
+      "razao_social": "Lacus Corp.",
+      "direcionamento_liquidacao": false
+    },
+    {
+      "conta_b3": "3707",
+      "carteira": "MM88EZ4KI",
+      "razao_social": "Tristique Senectus Et Limited",
+      "direcionamento_liquidacao": false
+    },
+    {
+      "conta_b3": "3880",
+      "carteira": "QJ76LF4XC",
+      "razao_social": "Nam Limited",
+      "direcionamento_liquidacao": false
+    },
+    {
+      "conta_b3": "2453",
+      "carteira": "KL87DO1CO",
+      "razao_social": "Id Institute",
+      "direcionamento_liquidacao": true
+    },
+    {
+      "conta_b3": "3721",
+      "carteira": "VL32HL9OX",
+      "razao_social": "Fusce Dolor Limited",
+      "direcionamento_liquidacao": true
+    },
+    {
+      "conta_b3": "5860",
+      "carteira": "NM42FF2HT",
+      "razao_social": "Cras LLP",
+      "direcionamento_liquidacao": false
+    },
+    {
+      "conta_b3": "9176",
+      "carteira": "UX74IP8XN",
+      "razao_social": "Montes Nascetur LLC",
+      "direcionamento_liquidacao": true
+    },
+    {
+      "conta_b3": "2951",
+      "carteira": "HH18VZ1HP",
+      "razao_social": "Ante Inc.",
+      "direcionamento_liquidacao": null
+    },
+    {
+      "conta_b3": "8611",
+      "carteira": "HT71WF9TR",
+      "razao_social": "Amet Ultricies PC",
+      "direcionamento_liquidacao": null
+    },
+    {
+      "conta_b3": "3547",
+      "carteira": "XP70HF4HY",
+      "razao_social": "Molestie Sed Ltd",
+      "direcionamento_liquidacao": null
+    },
+    {
+      "conta_b3": "1192",
+      "carteira": "HT11CW1TY",
+      "razao_social": "Orci In Inc.",
+      "direcionamento_liquidacao": false
+    },
+    {
+      "conta_b3": "9176",
+      "carteira": "RK46KT4XU",
+      "razao_social": "Magna Cras Convallis Institute",
+      "direcionamento_liquidacao": null
+    },
+    {
+      "conta_b3": "5303",
+      "carteira": "VL21TV4XS",
+      "razao_social": "Diam Duis Industries",
+      "direcionamento_liquidacao": true
+    },
+    {
+      "conta_b3": "7758",
+      "carteira": "JY76EE9CY",
+      "razao_social": "Erat Vivamus Nisi Inc.",
+      "direcionamento_liquidacao": true
+    },
+    {
+      "conta_b3": "7526",
+      "carteira": "UB57HE4JC",
+      "razao_social": "Lectus Sit Limited",
+      "direcionamento_liquidacao": true
+    },
+    {
+      "conta_b3": "9542",
+      "carteira": "US23TS5SP",
+      "razao_social": "Urna Ut Inc.",
+      "direcionamento_liquidacao": null
+    },
+    {
+      "conta_b3": "8914",
+      "carteira": "QH93WI7XH",
+      "razao_social": "Vitae Diam Limited",
+      "direcionamento_liquidacao": false
+    },
+    {
+      "conta_b3": "857",
+      "carteira": "NH56MX1FT",
+      "razao_social": "Lorem Eu Metus Corp.",
+      "direcionamento_liquidacao": false
+    },
+    {
+      "conta_b3": "7501",
+      "carteira": "HI72BQ1WL",
+      "razao_social": "Hendrerit Consectetuer Cursus LLC",
+      "direcionamento_liquidacao": false
+    },
+    {
+      "conta_b3": "7708",
+      "carteira": "HN41GO4QW",
+      "razao_social": "Imperdiet Ornare Incorporated",
+      "direcionamento_liquidacao": null
+    },
+    {
+      "conta_b3": "456",
+      "carteira": "VQ20UI4XI",
+      "razao_social": "Elit Corp.",
+      "direcionamento_liquidacao": false
+    },
+    {
+      "conta_b3": "3980",
+      "carteira": "VP07LP1EN",
+      "razao_social": "Luctus Sit Foundation",
+      "direcionamento_liquidacao": null
+    },
+    {
+      "conta_b3": "1391",
+      "carteira": "KY55BB6YR",
+      "razao_social": "Malesuada Industries",
+      "direcionamento_liquidacao": false
+    },
+    {
+      "conta_b3": "7865",
+      "carteira": "NY47OD2PD",
+      "razao_social": "Lorem Auctor PC",
+      "direcionamento_liquidacao": true
+    },
+    {
+      "conta_b3": "5420",
+      "carteira": "DQ19UY6IV",
+      "razao_social": "Amet Metus Aliquam PC",
+      "direcionamento_liquidacao": null
+    },
+    {
+      "conta_b3": "7520",
+      "carteira": "XW68VM3FP",
+      "razao_social": "Sed Inc.",
+      "direcionamento_liquidacao": null
+    },
+    {
+      "conta_b3": "9588",
+      "carteira": "WL30UL5DN",
+      "razao_social": "Hendrerit Donec Corp.",
+      "direcionamento_liquidacao": true
+    },
+    {
+      "conta_b3": "3904",
+      "carteira": "II48OQ2BW",
+      "razao_social": "Id Blandit Industries",
+      "direcionamento_liquidacao": false
+    },
+    {
+      "conta_b3": "4572",
+      "carteira": "PU13JE4YT",
+      "razao_social": "Euismod Enim LLP",
+      "direcionamento_liquidacao": false
+    },
+    {
+      "conta_b3": "1043",
+      "carteira": "BN34NH2FV",
+      "razao_social": "Turpis LLC",
+      "direcionamento_liquidacao": null
+    },
+    {
+      "conta_b3": "819",
+      "carteira": "EN23QC4PS",
+      "razao_social": "Sit Amet Industries",
+      "direcionamento_liquidacao": null
+    },
+    {
+      "conta_b3": "3704",
+      "carteira": "GC59PL3UK",
+      "razao_social": "Ullamcorper Velit Ltd",
+      "direcionamento_liquidacao": false
+    },
+    {
+      "conta_b3": "9773",
+      "carteira": "MH35HO2QV",
+      "razao_social": "Dolor Tempus Non Institute",
+      "direcionamento_liquidacao": false
+    },
+    {
+      "conta_b3": "5130",
+      "carteira": "YZ02NW7JE",
+      "razao_social": "Id Mollis Inc.",
+      "direcionamento_liquidacao": null
+    },
+    {
+      "conta_b3": "6513",
+      "carteira": "JG18UK8IU",
+      "razao_social": "Hendrerit Consectetuer Industries",
+      "direcionamento_liquidacao": null
+    },
+    {
+      "conta_b3": "9629",
+      "carteira": "FL35WE7FQ",
+      "razao_social": "Vitae Sodales Foundation",
+      "direcionamento_liquidacao": false
+    },
+    {
+      "conta_b3": "2527",
+      "carteira": "CF72XK4SP",
+      "razao_social": "Nec Enim PC",
+      "direcionamento_liquidacao": null
+    },
+    {
+      "conta_b3": "1356",
+      "carteira": "VG64HD6JF",
+      "razao_social": "Nunc Inc.",
+      "direcionamento_liquidacao": null
+    },
+    {
+      "conta_b3": "1287",
+      "carteira": "JO80WN1WD",
+      "razao_social": "Elit Erat Incorporated",
+      "direcionamento_liquidacao": false
+    },
+    {
+      "conta_b3": "7042",
+      "carteira": "MJ93YW1PT",
+      "razao_social": "Donec Non Corp.",
+      "direcionamento_liquidacao": false
+    },
+    {
+      "conta_b3": "3263",
+      "carteira": "HE64RC1IK",
+      "razao_social": "Enim Etiam Ltd",
+      "direcionamento_liquidacao": false
+    },
+    {
+      "conta_b3": "1378",
+      "carteira": "ZN62LW8RR",
+      "razao_social": "Curabitur Limited",
+      "direcionamento_liquidacao": false
+    },
+    {
+      "conta_b3": "5060",
+      "carteira": "XI82NL8JD",
+      "razao_social": "Vehicula Risus Inc.",
+      "direcionamento_liquidacao": false
+    },
+    {
+      "conta_b3": "7723",
+      "carteira": "HH33UI5CU",
+      "razao_social": "Molestie Sodales Inc.",
+      "direcionamento_liquidacao": null
+    },
+    {
+      "conta_b3": "7053",
+      "carteira": "IY66ML4EB",
+      "razao_social": "Ridiculus Mus Corp.",
+      "direcionamento_liquidacao": false
+    },
+    {
+      "conta_b3": "1131",
+      "carteira": "VL34WD6CE",
+      "razao_social": "Placerat Orci Inc.",
+      "direcionamento_liquidacao": null
+    }
+  ]
+}
