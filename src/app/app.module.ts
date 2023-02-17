@@ -7,10 +7,10 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 
 import { AppComponent } from './app.component';
 import { MaterialComponentsModule } from './material-components.module/material-components.module';
-import { SimpleMatTableComponent } from './simple-mat-table/simple-mat-table.component';
+import { SelectDropDownModule } from 'ngx-select-dropdown';
 
 @NgModule({
-  declarations: [AppComponent, SimpleMatTableComponent],
+  declarations: [AppComponent],
   imports: [
     CommonModule,
     BrowserModule,
@@ -19,6 +19,7 @@ import { SimpleMatTableComponent } from './simple-mat-table/simple-mat-table.com
     FormsModule,
     ReactiveFormsModule,
     MaterialComponentsModule,
+    SelectDropDownModule,
   ],
   exports: [
     CommonModule,

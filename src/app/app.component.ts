@@ -10,6 +10,7 @@ import { startWith, switchMap } from 'rxjs';
 
 import { DataService } from './data.service';
 import { IDirecionamentoLiquidacao } from './models/IDirecionamentoLiquidacao';
+import { NgxDropdownConfig } from 'ngx-select-dropdown';
 
 @Component({
   selector: 'app-root',
@@ -32,6 +33,56 @@ export class AppComponent {
     'left',
     'right',
   ];
+
+  razaoSocialCustomComparator(optionA: any, optionB: any) {
+    if (optionA.text < optionB.text) {
+      return -1;
+    } else if (optionA.text > optionB.text) {
+      return 1;
+    } else {
+      return 0;
+    }
+  }
+
+  statusCustomComparator(optionA: any, optionB: any) {
+    if (optionA.text < optionB.text) {
+      return -1;
+    } else if (optionA.text > optionB.text) {
+      return 1;
+    } else {
+      return 0;
+    }
+  }
+
+  razaoSocialConfig: NgxDropdownConfig = {
+    displayKey: 'razao_social',
+    search: true,
+    height: 'auto',
+    placeholder: 'Filtar por Razão Social',
+    moreText: 'mais',
+    noResultsFound: 'Nenhum resultado encontrado',
+    searchPlaceholder: 'Pesquisar',
+    limitTo: 0,
+    searchOnKey: '',
+    clearOnSelection: false,
+    inputDirection: 'ltr',
+    customComparator: this.razaoSocialCustomComparator,
+  };
+
+  statusConfig: NgxDropdownConfig = {
+    displayKey: 'status',
+    search: true,
+    height: 'auto',
+    placeholder: 'Filtrar por Status',
+    moreText: 'mais',
+    noResultsFound: 'Nenhum resultado encontrado',
+    searchPlaceholder: 'Pesquisar',
+    limitTo: 0,
+    searchOnKey: '',
+    clearOnSelection: false,
+    inputDirection: 'ltr',
+    customComparator: this.statusCustomComparator,
+  };
 
   position = new FormControl(this.positionOptions[0]);
 
@@ -89,8 +140,8 @@ export class AppComponent {
         this.filteredDataSource.paginator = this.paginator;
         this.dataSource = new MatTableDataSource(res);
         this.dataSource.paginator = this.paginator;
-        this.RazaoOptions = _.uniq(res.map((item: any) => item.razao_social));
-        this.StatusOptions = _.uniq(res.map((item: any) => item.status));
+        this.RazaoOptions = _.union(res.map((item: any) => item.razao_social));
+        this.StatusOptions = _.union(res.map((item: any) => item.status));
         this.isLoading = false;
         this.resetFilters();
       });
@@ -107,11 +158,13 @@ export class AppComponent {
 
   applyFilters() {
     this.filteredDataSource.data = this.dataSource.data.filter((data: any) => {
-      return (
-        (this.selectedRazaoSocial === '' ||
-          data.razao_social === this.selectedRazaoSocial) &&
-        (this.selectedStatus === '' || data.status === this.selectedStatus)
-      );
+      const razaoSocialMatches =
+        this.selectedRazaoSocial.length === 0 ||
+        this.selectedRazaoSocial.includes(data.razao_social);
+      const statusMatches =
+        this.selectedStatus.length === 0 ||
+        this.selectedStatus.includes(data.status);
+      return razaoSocialMatches && statusMatches;
     });
 
     this.filteredDataSource.paginator = this.paginator;

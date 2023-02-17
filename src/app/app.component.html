@@ -1,26 +1,28 @@
 <mat-card>
   <mat-card class="align-itens-middle">
-    <mat-form-field class="space-right">
-      <mat-label>Razão Social</mat-label>
-      <mat-select [(value)]="selectedRazaoSocial">
-        <mat-option *ngFor="let razao of RazaoOptions" [value]="razao">
-          {{ razao }}
-        </mat-option>
-      </mat-select>
-    </mat-form-field>
+    <ngx-select-dropdown
+      class="space-right"
+      [config]="razaoSocialConfig"
+      [options]="RazaoOptions"
+      [(ngModel)]="selectedRazaoSocial"
+      [multiple]="true"
+    ></ngx-select-dropdown>
 
-    <mat-form-field class="space-right">
-      <mat-label>Status</mat-label>
-      <mat-select [(value)]="selectedStatus">
-        <mat-option *ngFor="let status of StatusOptions" [value]="status">
-          {{ status }}
-        </mat-option>
-      </mat-select>
-    </mat-form-field>
+    <ngx-select-dropdown
+      [config]="statusConfig"
+      [options]="StatusOptions"
+      [(ngModel)]="selectedStatus"
+      [multiple]="true"
+    ></ngx-select-dropdown>
+    <br />
+    <button mat-raised-button (click)="resetFilters()" class="space-right">
+      Limpar
+    </button>
 
-    <button mat-raised-button (click)="resetFilters()" class="space-right">Limpar</button>
-
-    <button mat-raised-button color="warn" (click)="applyFilters()">Filtrar</button>
+    <button mat-raised-button color="warn" (click)="applyFilters()">
+      Filtrar
+    </button>
+    <hr />
   </mat-card>
 
   <div class="mat-elevation-z8">
@@ -84,4 +86,3 @@
     </mat-paginator>
   </div>
 </mat-card>
-<!-- <app-simple-mat-table></app-simple-mat-table> -->
